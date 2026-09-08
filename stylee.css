@@ -9,3 +9,21 @@ h1,h3{
     background-color: aqua;
     color:black
 }
+/* decendant selector more use */
+p + h3 {
+    text-decoration: underline;
+}
+/* child descendant not much use*/
+div > input{
+    background-color: darkgray;
+}
+
+input[type="text" ]{
+    color: blueviolet;
+}
+input[type="password"]{
+    color: #b92b27;
+}
+input[type]{
+    background-color: antiquewhite;
+}
